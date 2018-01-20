@@ -3,6 +3,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets" 
    xmlns:gap = "http://phonegap.com/ns/1.0" id = "p1" version = "1.0">
    
+
    <name>PragnaApp</name>
    
    <description>
@@ -12,8 +13,11 @@
    <author href = "http://tutorialspoint.com" email = "contact@tutorialspoint.com">
       Pragna Mallik
    </author>
+    
+    <allow-navigation href="http://*/*" />
+    <allow-intent href="https://*/*" />
    
-   <preference name = "permissions" value = "none"/>
+    <preference name = "permissions" value = "none"/>
    
    <icon src = "res/icon/android/drawable-ldpi/tp_icon.png" 
       gap:platform = "android" gap:qualifier = "ldpi" />
